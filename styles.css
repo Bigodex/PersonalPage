@@ -2,6 +2,7 @@
 @import url('https://fonts.google.com/specimen/Metrophobic');
 @import url('https://fonts.google.com/specimen/Proza+Libre');
 
+/* Propriedades da página */
 body {
   background-color: #1A1A1A;
   font-family: 'Roboto', sans-serif;
@@ -11,6 +12,7 @@ body {
   color: #C9D1D9;
 }
 
+/* Header da página */
 header {
   background-color: #252525;
   color: #eb6a00;
@@ -28,7 +30,7 @@ header {
   float: left;
 }
 
-/* Alinhamento da seção "Sobre Mim" */
+/* Alinhamento da section Sobre Mim */
 .sobre {
   display: flex;
   align-items: center;
@@ -41,6 +43,7 @@ header {
   ;
 }
 
+/* Margem texto Sobre Mim*/
 .texto-sobre-mim {
   margin-left: 20px;
 }
@@ -55,7 +58,7 @@ h2 {
 
 }
 
-/* Parágrafo */
+/* Parágrafos */
 p {
   font-size: 16px;
   color: #ffffff;
@@ -76,6 +79,7 @@ p {
   align-items: center;
 }
 
+/* Lista de Social Media */
 .social-media {
   margin: 20px;
   padding: 20px;
@@ -86,6 +90,7 @@ p {
   align-items: center;
 }
 
+/* Propriedades Hobbies */
 .hobbies {
   margin: 20px;
   padding: 20px;
@@ -114,10 +119,8 @@ p {
 .hobby-item img {
   border-radius: 20px;
   width: 200px;
-  /* Ajuste o tamanho da imagem */
   margin-right: 20px;
   padding: 10px;
-  /* Espaçamento entre a imagem e o texto */
 }
 
 /* Estilo das descrições */
@@ -141,7 +144,6 @@ p {
   line-height: 1.5;
 }
 
-/* From Uiverse.io by wilsondesouza */
 ul {
   list-style: none;
 }
@@ -244,12 +246,12 @@ ul {
 }
 
 
-/* Box Shadow para seções */
+/* Box Shadow para sections */
 section {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Centralização e espaçamento entre seções */
+/* Centralização e espaçamento entre sections */
 main {
   max-width: 900px;
   margin: 0 auto;
@@ -259,9 +261,8 @@ main {
 /* Estilo para ajustar o tamanho do ícone */
 i.devicon-github-original {
   font-size: 45px;
-  /* Ajuste o valor para o tamanho desejado */
   color: #ffffff;
-  /* Você também pode mudar a cor se quiser */
+ 
 }
 
 h4 {
