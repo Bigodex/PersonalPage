@@ -1,0 +1,87 @@
+/* Estilos gerais para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    /* Header da página */
+    header {
+      font-size: 14px;
+      padding: 5px 0;
+    }
+  
+    /* Foto de perfil */
+    .foto-perfil {
+      width: 100px;
+      margin-right: 10px;
+    }
+  
+    /* Alinhamento da section Sobre Mim */
+    .sobre {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    .texto-sobre-mim {
+      margin-left: 0;
+    }
+  
+    /* Estilo para parágrafos */
+    p {
+      font-size: 14px;
+      margin: 10px 0;
+    }
+  
+    /* Lista de tecnologias e Social Media */
+    .tecnologias, .social-media {
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+    }
+  
+    /* Estilo para hobbies */
+    .hobbies {
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    /* Estilo para cada item de hobby */
+    .hobby-item {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Estilo das imagens */
+    .hobby-item img {
+      width: 100%;
+      max-width: 200px;
+      margin: 0 0 10px;
+    }
+  
+    /* Estilo das descrições */
+    .hobby-description {
+      text-align: center;
+    }
+  
+    /* Estilo para a lista de social media */
+    .example-2 {
+      flex-direction: column;
+    }
+  
+    .example-2 .icon-content {
+      margin: 10px 0;
+    }
+  
+    /* Centralização e espaçamento entre sections */
+    main {
+      padding: 10px;
+    }
+  
+    /* Ajuste do tamanho do ícone */
+    i.devicon-github-original {
+      font-size: 30px;
+    }
+  
+    h4 {
+      font-size: 18px;
+    }
+  }
+  
