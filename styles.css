@@ -1,6 +1,9 @@
-/* Cor de fundo da página inspirada no GitHub */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;700&display=swap');
+@import url('https://fonts.google.com/specimen/Metrophobic');
+@import url('https://fonts.google.com/specimen/Proza+Libre');
+
 body {
-    background-color: #0D1117;
+    background-color: #1A1A1A;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -9,10 +12,12 @@ body {
   }
   
   header {
-    background-color: #161B22;
-    color: #ffffff;
+    background-color: #252525;
+    color: #eb6a00;
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Signika Negative', sans-serif;
+    text-shadow: 0 7px 5px rgba(0, 0, 0, 0.5);
   }
   
   /* Foto de perfil */
@@ -24,14 +29,15 @@ body {
   }
   
   /* Alinhamento da seção "Sobre Mim" */
-  .about {
+  .sobre {
     display: flex;
     align-items: center;
     text-align: left;
     padding: 20px;
-    background-color: #161B22;
+    background-color: #252525;
     border-radius: 10px;
     margin: 20px;
+    box-shadow: 7px 5px rgba(0, 0, 0, 0.5);;
   }
   
   .texto-sobre-mim {
@@ -39,25 +45,45 @@ body {
   }
   
   h2 {
-    color: #ffffff;
-    font-size: 24px;
+    color: #eb6a00;
+    font-size: 20px;
     margin-bottom: 10px;
+    font-family: 'Metrophobic', sans-serif;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 1);
+    text-align: left;
+  
   }
   
   /* Parágrafo */
   p {
     font-size: 16px;
-    color: #C9D1D9;
+    color: #ffffff;
     margin: 10px 0 20px;
+    font-family: 'Proza Libre', sans-serif;
+    line-height: 1.5;
+    text-align: justify;
   }
   
   /* Lista de tecnologias */
-  .tecnologias, .hobbies, .social-media {
+  .tecnologias, .social-media {
     margin: 20px;
     padding: 20px;
-    background-color: #161B22;
+    background-color: #252525;
     border-radius: 10px;
-    text-align: left;
+    text-align: center;
+    box-shadow: 7px 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+  }
+
+  .hobbies {
+    margin: 20px;
+    padding: 20px;
+    background-color: #252525;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 7px 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    align-content: line-block;
   }
   
   /* Estilo das listas */
@@ -99,4 +125,10 @@ i.devicon-github-original {
     font-size: 45px; /* Ajuste o valor para o tamanho desejado */
     color: #ffffff;  /* Você também pode mudar a cor se quiser */
   }
+
+.hobbies img {
+  border-radius: 20px;
+  padding: 10px;
+}
+  
   
